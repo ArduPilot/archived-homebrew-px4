@@ -9,12 +9,7 @@ class Genromfs < Formula
     system "make"
     system "make PREFIX=#{prefix} install-bin"
   end
-  
-  def patches
-    # fixes something small
-    DATA
-  end
-
+  patch :DATA
   def test
     # This test will fail and we won't accept that! It's enough to just replace
     # "false" with the main program this formula installs, but it'd be nice if you
@@ -22,7 +17,6 @@ class Genromfs < Formula
     system "false"
   end
 end
-
 __END__
 diff --git a/Makefile b/Makefile
 index d278efc..f0b9427 100644
