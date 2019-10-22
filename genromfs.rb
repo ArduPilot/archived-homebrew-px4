@@ -2,7 +2,7 @@ require 'formula'
 
 class Genromfs < Formula
   homepage ''
-  url 'http://px4-travis.s3.amazonaws.com/toolchain/genromfs-0.5.2.tar.gz'
+  url 'https://s3.amazonaws.com/px4-travis/toolchain/genromfs-0.5.2.tar.gz'
   sha256 '30f37fc734572c1dbaa2504585bc23ba6b8fd7df767ae7155995b2ca0ebed960'
 
   def install
