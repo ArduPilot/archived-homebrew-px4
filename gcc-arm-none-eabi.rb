@@ -2,10 +2,9 @@ require 'formula'
 
 class GccArmNoneEabi < Formula
   homepage 'https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads'
-  version '20160928'
-  #url 'https://armkeil.blob.core.windows.net/developer//sitecore/shell/-/media/Files/downloads/gnu-rm/5_4-2016q3/gcc-arm-none-eabi-5_4-2016q3-20160926-mac,-d-,tar.bz2'
-  url 'https://s3.amazonaws.com/px4-travis/toolchain/gcc-arm-none-eabi-5_4-2016q3-20160926-mac-d.tar.bz2'
-  sha256 '5656cdec40f99d5c054a85bbc694276e1c4a1488cdacbbc448bc6acd3bbe070d'
+  version '20170628'
+  url 'https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/6-2017q2/gcc-arm-none-eabi-6-2017-q2-update-mac.tar.bz2'
+  sha256 '7d3080514a2899d05fc55466cdc477e2448b6a62f536ffca3dd846822ff52900'
 
   def install
     ohai 'Copying binaries...'
