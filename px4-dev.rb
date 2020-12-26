@@ -12,7 +12,7 @@ class Px4Dev < Formula
 	depends_on "ant"
 	depends_on "fastrtps"
 	depends_on "fastcdr"
-	depends_on :java
+	depends_on "openjdk"
 
 	homepage 'http://px4.io'
 	version '1.6.5.0'
