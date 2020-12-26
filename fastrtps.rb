@@ -9,7 +9,7 @@ class Fastrtps < Formula
 
   depends_on "cmake" => :build
   depends_on "gradle" => :build
-  depends_on :java
+  depends_on "openjdk"
 
   bottle do
     root_url "http://px4-tools.s3.amazonaws.com"
